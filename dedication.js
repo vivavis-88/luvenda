@@ -369,7 +369,7 @@
             const blk = document.createElement('section');
             blk.className = 'next-block ded-next-block';
             blk.setAttribute('aria-labelledby', 'ded-next-title');
-            blk.innerHTML = `<h2 id="ded-next-title">One more thing, my love.</h2><p class="muted">Letters from my week, written just for you.</p><button type="button" class="btn btn-primary" id="toDedication">Open Dedication</button>`;
+            blk.innerHTML = `<h2 id="ded-next-title">Something's new.. Check it out! hehe</h2><p class="muted">Letters from my week, written just for you.</p><button type="button" class="btn btn-primary" id="toDedication">Open Dedication</button>`;
             mainNext.after(blk);
         }
         // Entry point on the Open When page (between Back and Home)
